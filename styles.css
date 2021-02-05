@@ -1,0 +1,55 @@
+.container {
+    width: 700px;
+    height: 400px;
+    border: 2px solid red;
+    margin: 10px 10px;
+    position:absolute;
+}
+
+.grid {
+    position: absolute;
+    left: 50px;
+    bottom: 300px;
+    width: 560px;
+    height: 300px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.btnStop {
+    position: absolute;
+    right: 700px;
+    bottom: 230px;
+}
+
+.btnStart {
+     position: absolute;
+    right: 500px;
+    bottom: 230px;
+}
+
+.block {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+    /* left: 50px;
+    bottom: 50px; */
+}
+
+.paddle {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: purple;
+    /* left: 50px;
+    bottom: 50px; */
+}
+
+.ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+}
